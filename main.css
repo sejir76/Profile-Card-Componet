@@ -11,7 +11,7 @@ html, body{
 }
 
 body{
-font-family: 'Kumbh Sans', sans-serif;
+font-family:" Kumbh Sans", sans-serif;
 background-color: hsl(185, 75%, 39%);
 
 background-image: url("images/bg-pattern-top.svg");
@@ -30,24 +30,59 @@ color: white;
     
 }
 
+.secundary{
+     background-position: center;
+     background-size: 100% 76%;
+     background-repeat: no-repeat;
+     position: absolute;
+     top: 35%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     background-blend-mode: screen;
+}
 .photo{
-    border: 2px solid white;
+    border: 3px solid white;
     border-radius: 50%;
-    display: flex;
-    flex-grow: inherit;
-    justify-content: center;
-    align-items: center;
 }
 
+
 .table{
-width: 350px;
-height: 400px;
+position: relative;
+width: 340px;
+height: 380px;
 background-color: white;
-color: black
+color: black;
+border-radius: 1rem;
+text-align: center ;
 }
 
 .pattern{
-    display: flexbox;
-    justify-content: center;
-    align-items: flex-start;
+    border-radius: 1rem 1rem 0 0;
+    width: 340px;
+}
+
+.text{
+    margin-top: 5rem;
+
+}
+
+.age {
+    color: hsl(0, 0%, 59%);
+}
+
+.from{
+    color: hsl(0, 0%, 59%);
+}
+
+.info{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    display: flex;
+    margin-top: 2rem;
+
+    justify-content: space-between;
+}
+
+.info p{
+   padding: 1rem;
 }
